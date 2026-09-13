@@ -37,8 +37,15 @@ Helm chart for a multi-service app (API, frontend, Postgres, Redis), reconciled 
 
 Web application testing against authorized bug-bounty programs, OWASP Top 10, reproducing and documenting findings for developers. Tooling: Burp Suite, nmap, sqlmap, ffuf, the ProjectDiscovery stack (subfinder, httpx, naabu, katana), Linux/Kali.
 
-- **[Sharingan](https://github.com/Mohamed-Newish/Sharingan)** — recon automation pipeline in Bash. A Go rewrite (`sharingan-go`) adds an adaptive rate limiter, circuit breaker and WAF fingerprinting.
-- **[LFIer](https://github.com/Mohamed-Newish/LFIer)** — Python LFI / path-traversal scanner.
+### [sharingan-go](https://github.com/Mohamed-Newish/sharingan-go)
+Recon orchestrator in Go — a rewrite of a Bash recon pipeline. An adaptive rate limiter, circuit breaker and WAF fingerprinting tune the load to how the target responds. Four modes behind separate scope gates (passive, active, origin-IP discovery, block isolation); drives established tools (subfinder, naabu, katana, jsluice) and skips missing ones cleanly.
+
+`Go` · `concurrency` · `rate limiting` · `tool orchestration`
+
+### [byakugan](https://github.com/Mohamed-Newish/byakugan)
+Content inspection pipeline and companion to sharingan-go: seven concurrent phases for screenshots, path/parameter wordlists, SQLi and XSS candidates, and secrets in page source.
+
+`Bash` · `concurrent phases` · `toolchain integration`
 
 ## Tech
 
