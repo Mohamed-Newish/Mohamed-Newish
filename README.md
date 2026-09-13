@@ -8,11 +8,9 @@ DevOps engineer focused on container orchestration with **Docker** and **Kuberne
 
 **DevOps Engineer** — Ambos Security GmbH, Dohna · since 05/2026
 
-- CI/CD pipelines with GitHub Actions for the build and delivery of the in-house software stack
-- Operating a Docker/container registry as the central artefact source
-- Deployment, release and update processes — automated, reproducible container rollout to the target systems
 - Software and infrastructure architecture for productive operation
-- Certificate and PKI services for secured delivery
+- Automated build and delivery with GitHub Actions, backed by a self-operated container registry
+- Release and update processes, with certificate and PKI services securing delivery
 
 ## Featured Projects
 
