@@ -65,7 +65,7 @@ German B1 · English fluent · Arabic native
 
 ## Connect
 
-- LinkedIn: [Mohamed Newish](https://www.linkedin.com/in/mohamed-newish-8470a5395)
+- LinkedIn: [Mohamed Newish](https://www.linkedin.com/in/mohamed-newish)
 - Email: mohamedsayed2646@gmail.com
 
 <!-- profile -->
